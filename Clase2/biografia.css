@@ -16,9 +16,9 @@
     font-size: x-large;
 
     display: flex;
-   justify-content:center;
-   align-items: flex-start;
-   font-size: 2cm;
+    justify-content:center;
+    align-items: flex-start;
+    font-size: 2cm;
 }
 
 h1 {color:gold;
@@ -26,25 +26,29 @@ h1 {color:gold;
    
 }
 
-
-h3 {color:red;
-
-}
-
-.h4 {color: darkorchid;
-
-}
-
 header {
 
     background-color: #52613f;
     
     display: flex;
-   justify-content: left;
-   align-items: flex-start;
-   margin-bottom: 0px;
-   padding-top: 21px;
-padding-left: 25px;    
+    justify-content: left;
+    align-items: flex-start;
+    margin-bottom: 0px;
+    padding-top: 21px;
+    padding-left: 25px;    
+        
+}
+
+.titulo {
+
+    background-color: #52613f;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 0px;
+    padding-top: 21px;
+    padding-left: 25px;    
         
 }
 
@@ -86,76 +90,36 @@ footer {
 
     background-color: #52613f;
    
-   display: flex;
-   justify-content: space-around;
-   align-items: baseline;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
     border: 0px;
     margin: 0px; 
     padding: 30px;
 
 }
 
-.objeto-b {
+.spartan-b {
    
    padding-left: 1cm;
 
 }
 
-.habilidades-b {
+.Guerra-b {
 
     padding-left: 1cm;
 }
 
-.farmeo-b {
+.forerunner-b {
 
     padding-left: 1cm;
 }
 
-.pagina-oficial-b{
+.armada-b{
 
     padding-right: 1cm;
 }
 
-
-.color-soporte { color: #0CC7BD;
-
-    border: 0.5cm;
-    margin: 0.5cm; 
-    padding: 0.5cm;  
-
-}
-    
-.color-mago { color: #4C2AC7;
-
-    border: 0.5cm;
-    margin: 0.5cm; 
-    padding: 0.5cm; 
-
-}
-
-.color-asesino { color: #D9025A; 
-
-    border: 0.5cm;
-    margin: 0.5cm; 
-    padding: 0.5cm; 
-
-}
-
-.color-peleador { color: #E2AA17; 
-    
-    border: 0.5cm;
-    margin: 0.5cm; 
-    padding: 0.5cm; 
-
-}
-
-.color-tanque { color:#08BD25;
-
-    border: 0.5cm;
-    margin: 0.5cm; 
-    padding: 0.5cm; 
-
-}
 .parrafo0{
     display: flex;
     border: 1cm;
@@ -164,80 +128,35 @@ footer {
 }
 
 .parrafo1 {
-
-    border: 0.5cm;
-    margin: 0.5cm; 
-    padding: 0.5cm;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-bottom: 0px;
+    padding-top: 21px;
+    padding-left: 25px;    
+    background-color: #52613f;
+    color: aliceblue;
+   
 }
 
-.parrafo2 {
-    border: 0.5cm;
-    margin: 0.5cm; 
-    padding: 0.5cm;
-}
-
-.parrafo3 { 
-
-    border: 1cm;
-    margin: 1cm; 
-    padding: 1cm;
-}
-
-
-.parrafo4  {
-    
-    border: 1cm;
-    margin: 1cm; 
-    padding: 1cm;
-    width: 33%;
-}
-
-.parrafo5 {
-
-    width: 85%;
-}
-
-
-
-.parrafo6{
-
-display: flex;
-justify-content: center;
-align-items: center;
-border: 1cm;
-margin: 1cm; 
-
-}
 
 .imagen-objetos {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1cm;
-    margin: 1cm; 
+
+    background-color: #000;
 }
 
+.apariencia {
 
-.imagen-habilidades {
-
-display: flex;
-justify-content: center;
-align-items: center;
-border: 1cm;
-margin: 1cm; 
-
-
-}
-
-.imagen-farmeo{
-
-display: flex;
-justify-content: center;
-align-items: center;
-border: 1cm;
-margin: 1cm; 
-
-
+    color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding-top: 21px;
+    padding-left: 25px;   
 }
 
 .texto1 {
@@ -247,8 +166,6 @@ margin: 1cm;
     padding: 1cm;
    
 }
-
-
 
 .div 
 
